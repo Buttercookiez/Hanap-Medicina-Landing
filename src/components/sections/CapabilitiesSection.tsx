@@ -1,5 +1,3 @@
-import React from 'react';
-
 const capabilities = [
   { num: "01", tag: "Knowledge Base", title: "Reliable Info.", desc: "Reliable and accessible information about medicinal plants to address the lack of guidance.", color: "#022c22", text: "#fff" }, 
   { num: "02", tag: "AI Vision", title: "Accurate ID.", desc: "Improve identification accuracy by helping users recognize plants based on physical traits.", color: "#064e3b", text: "#fff" }, 
@@ -27,7 +25,6 @@ export default function CapabilitiesSection() {
                {capabilities.map((c, i) => (
                    <div
                      key={i}
-                     // REMOVED h-screen. Added fixed height for a "not full screen" look.
                      className={`cap-card-anim-${i} absolute left-0 right-0 mx-auto w-[94%] md:w-full h-[500px] md:h-[600px] flex flex-col justify-start pt-20 md:pt-32 px-8 md:px-20 overflow-hidden shadow-[0_-20px_50px_rgba(0,0,0,0.02)] border-t border-white/5`}
                      style={{
                        backgroundColor: c.color,

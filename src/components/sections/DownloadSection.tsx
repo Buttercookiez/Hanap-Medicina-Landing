@@ -1,5 +1,3 @@
-import React from 'react';
-
 const features = [
   { side: 'left', title: 'System Discovery', desc: 'Identify local medicinal flora instantly.' },
   { side: 'right', title: 'SMART SEARCH', desc: 'QUICKLY FIND SPECIMENS BY NAME, TYPE, OR ATTRIBUTES..' },
